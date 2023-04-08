@@ -1,3 +1,10 @@
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 10px;
+}
+
 nav a {
     text-decoration: none;
     margin-right: 20px;
