@@ -10,6 +10,7 @@ import {
   createBrowserRouter,
   RouterProvider,
 } from "react-router-dom";
+import Grandpa from './component/Grandpa/Grandpa';
 
 
 
@@ -30,7 +31,12 @@ const router = createBrowserRouter([
       {
         path: '/review',
         element: <OrderReview></OrderReview>
+      },
+      {
+        path: '/grandpa',
+        element: <Grandpa></Grandpa>
       }
+
     ]
   }
 ])
