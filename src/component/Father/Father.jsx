@@ -3,14 +3,14 @@ import Sister from '../Sister/Sister';
 import Bother from '../Bother/Bother';
 import ME from '../ME/ME';
 
-const Father = () => {
+const Father = ({ ruing }) => {
     return (
         <div>
             <h2>Father</h2>
             <section className='flex'>
                 <ME></ME>
                 <Sister></Sister>
-                <Bother></Bother>
+                <Bother ruing={ruing}></Bother>
             </section>
         </div>
     );
